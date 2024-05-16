@@ -211,7 +211,9 @@
     margin-top: 2%;
     border: 2px solid black;
     padding-left: 3%;
-    padding-top: 4%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     border-right: none;
     border-top-left-radius: 170px;
     border-bottom-left-radius: 170px;
@@ -219,10 +221,16 @@
 }
 .stepimg{
     width: 90%;
-    height: 80%;
+    height: 95%;
     margin-top: 5%;
     position: relative;
     padding-left: 0%;
     background-color: none;
     box-sizing: border-box;
+    right:20% ;
+}
+.arrowimg{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
