@@ -210,7 +210,19 @@
 .txt2{
     margin-top: 2%;
     border: 2px solid black;
+    padding-left: 3%;
+    padding-top: 4%;
+    border-right: none;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+    background-color: skyblue;
 }
 .stepimg{
-    width: 80%;
+    width: 90%;
+    height: 80%;
+    margin-top: 5%;
+    position: relative;
+    padding-left: 0%;
+    background-color: none;
+    box-sizing: border-box;
 }
