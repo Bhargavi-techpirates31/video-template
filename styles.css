@@ -234,3 +234,22 @@
    margin-left: auto;
    margin-right: auto;
 }
+.txt3{
+    border: 2px solid black;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-left: none;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    background-color: skyblue;
+}
+.stepimg2{
+    width: 90%;
+    height: 95%;
+    margin-top: 5%;
+    position: relative;
+    background-color: none;
+    box-sizing: border-box;
+    left: 23%;
+}
