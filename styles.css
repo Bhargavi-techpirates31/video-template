@@ -218,6 +218,7 @@
     border-top-left-radius: 170px;
     border-bottom-left-radius: 170px;
     background-color: skyblue;
+    float: left;
 }
 .stepimg{
     width: 90%;
@@ -245,11 +246,16 @@
     background-color: skyblue;
 }
 .stepimg2{
-    width: 90%;
+    width: 105%;
     height: 95%;
     margin-top: 5%;
     position: relative;
     background-color: none;
     box-sizing: border-box;
-    left: 23%;
+    left: 18%;
+}
+.stepimg3{
+    right: 50%;
+    margin-top: 16%;
+    width: 115%;
 }
