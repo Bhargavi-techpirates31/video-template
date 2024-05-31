@@ -1,7 +1,504 @@
-.section1{
+/* .section1{
     background: url(https://videocreator.io/live/images/coupon_strip.png) no-repeat center;
     z-index: 2;
     height:90px ;
     text-align: center;
     position: relative;
+} */
+
+
+
+
+/* section15_start */
+.body {
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
 }
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section15 {
+    background: url(https://videocreator.io/live/images/section15.png) no-repeat center center;
+    background-size: cover;
+    padding: 4% 0 0 0;
+}
+
+.heading {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.heading h1 {
+    /* font-size: 26px; */
+    font-weight: 700;
+    text-align: center;
+}
+
+.image {
+    background: url(https://videocreator.io/live/images/titleBg14.png) no-repeat center center;
+    padding: 5% 2% 6.5% 2%;
+    position: relative;
+    z-index: 2;
+}
+
+.paragraph {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #0e0f12;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card_img {
+    margin-top: 25px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+/* section15_end */
+/* section16 start */
+
+.section16 {
+    background: url(https://videocreator.io/live/images/section16.png) no-repeat center center;
+    background-size: cover;
+    padding: 6% 0 2% 0;
+}
+
+.arrowA {
+    position: relative;
+    right: -17%;
+    margin-bottom: -5%;
+}
+
+.arrowB {
+    position: relative;
+    right: -18%;
+    margin-bottom: -3%;
+    margin-top: 10%;
+}
+
+.arrowC {
+    position: relative;
+    right: -29%;
+    margin-top: -5%;
+}
+
+.arrowD {
+    position: relative;
+    left: -82%;
+    margin-bottom: -5%;
+    transform: rotateY(180deg);
+}
+
+.arrowE {
+    position: relative;
+    left: -57%;
+    /* margin-bottom: -5%; */
+    margin-top: 19%;
+    transform: rotateY(180deg);
+}
+
+.arrowF {
+    position: relative;
+    left: -50%;
+    margin-top: -5%;
+    transform: rotateY(180deg);
+}
+
+.fbox {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(71, 23, 98, 0.32) 0px 22px 40px 0px;
+    width: 85%;
+    border-radius: 10px;
+    padding: 0px 20px;
+
+}
+
+.fbox_1 {
+    margin-left: 15%;
+}
+
+.fbox_2 {
+    margin-bottom: 25%;
+    padding: 7px 20px;
+}
+
+.fbox4 {
+    margin-left: 0;
+}
+
+.fbox_5 {
+    margin-bottom: 31%;
+    margin-left: 15%;
+}
+
+.ftext {
+    padding-left: 41px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: url(https://videocreator.io/live/images/uncheck3.png) left 18px no-repeat;
+    list-style: none;
+    font-size: 31px;
+    font-weight: 700;
+
+}
+
+/* section16 end */
+/* section18A start */
+.section18A {
+    background: url(https://videocreator.io/live/images/section18A.png) no-repeat center center;
+    background-size: cover;
+    padding: 2% 0 1% 0;
+    position: relative;
+}
+
+.image18 {
+    background: url(https://videocreator.io/live/images/titleBg18.png) no-repeat center center;
+    padding: 5% 22% 6.5% 21%;
+    position: relative;
+    z-index: 2;
+}
+
+.box_section_1 {
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 59px 0px rgb(55 23 61 / 18%);
+    padding: 4% 0 4% 1%;
+    margin-top: 6%;
+}
+
+.table_title {
+    padding: 0 8%;
+    text-align: left;
+    /* font-family: 'WesFYW03-Black'; */
+    color: #0E0F12;
+    font-weight: 900;
+    font-size: 31px;
+
+
+}
+
+.box_section_1 ul {
+    padding: 5% 0 3% 0;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.box_section_1 li:nth-child(odd) {
+    background-color: rgb(250, 247, 250);
+    padding: 3.2% 8%;
+
+
+}
+
+.box_section_1 li {
+
+    padding: 3.2% 8%;
+
+
+}
+
+.box_section_2 {
+    /* width: 25%; */
+    background-image: -webkit-linear-gradient(90deg, rgb(23, 19, 40) 0%, rgb(55, 23, 61) 100%);
+    box-shadow: 0px 12px 43px 0px rgba(128, 0, 133, 0.27);
+    padding: 13% 6% 10% 6%;
+    position: relative;
+
+}
+
+.box_2_in:before {
+    content: url(https://videocreator.io/live/images/emoji1.png);
+    position: absolute;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .box_2_in:before {
+        right: -9%;
+        top: -3%;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .box_2_in:before {
+        right: 35%;
+        top: -10%;
+    }
+} */
+.box_2_in {
+    border-right: 5px dashed rgb(250, 247, 250);
+    border-left: 5px dashed rgb(250, 247, 250);
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    margin: 20px;
+}
+
+.box_section_2 li {
+    padding: 10.6% 0;
+    border-bottom: 1px solid rgb(255 255 255 / 4%);
+}
+
+.text-white {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 34px 107px;
+}
+
+.box_section_3 {
+    /* width: 18%; */
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 59px 0px rgb(55 23 61 / 18%);
+    padding: 15% 0 0 0;
+    overflow: hidden;
+    margin-top: 11%;
+}
+
+.text_center {
+    color: #0E0F12;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.box_section_3 ul {
+    margin-top: 7%;
+}
+
+.box_section_3 li:nth-child(odd) {
+    background-color: rgb(250, 247, 250);
+}
+
+.box_section_3 li {
+    padding: 10.2% 0;
+    border-bottom: 1px solid rgb(240, 247, 247);
+    text-align: center;
+}
+
+/* .mx-auto {
+    margin-left: auto !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+} */
+.text-red {
+    color: #da0301;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 34px 89px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.element8 {
+    position: absolute;
+    bottom: 5%;
+    text-align: left;
+    z-index: 2;
+}
+
+/* section18A end */
+
+
+/* section17A start */
+.section17A {
+    background: url(https://videocreator.io/live/images/section17A.png) no-repeat top center;
+    background-size: cover;
+    background-color: #fff;
+    padding: 7% 0 1% 0;
+    position: relative;
+}
+.image26 {
+    background: url(https://videocreator.io/live/images/titleBg26.png) no-repeat center center;
+    padding: 4% 2% 5% 2%;
+    position: relative;
+    z-index: 2;
+}
+
+.bonus-text-out {
+    background: url(https://videocreator.io/live/images/bonusBg1.png) no-repeat left bottom;
+    border-radius: 50px;
+    border-image-slice: 1;
+    padding: 0 0 3% 3%;
+    position: relative;
+    width: 93%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.bonus-text {
+    border-radius: 40px;
+    background-color: #e9efda;
+    padding: 6% 1% 6% 2%;
+    position: relative;
+    width: 102%;
+}
+
+.bonus-title {
+    background-color: rgb(148, 201, 15);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 6px 35px;
+    color: #fff !important;
+}
+.bonus2-text-out {
+    background: url(https://videocreator.io/live/images/bonusBg2.png) no-repeat left bottom;
+    border-radius: 50px;
+    border-image-slice: 1;
+    padding: 0 0 3% 3%;
+    position: relative;
+    width: 93%;
+    margin: auto;
+    margin-top: 6%;
+}
+.bonus2-text {
+    background-color: #dbffff;
+    border-radius: 40px;
+    padding: 6% 1% 6% 2%;
+    position: relative;
+    width: 102%;
+}
+.bonus2-title {
+    background-color: #1ccdcf;
+    background-color: #8480f5;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 6px 35px;
+    color: #fff !important;
+}
+.bonus3-text-out {
+    background: url(https://videocreator.io/live/images/bonusBg3.png) no-repeat left bottom;
+    border-radius: 50px;
+    border-image-slice: 1;
+    padding: 0 0 3% 3%;
+    position: relative;
+    width: 93%;
+    margin: auto;
+    margin-top: 6%;
+}
+.bonus3-text {
+    background-color: #ebeaff;
+    border-radius: 40px;
+    padding: 6% 1% 6% 2%;
+    position: relative;
+    width: 102%;
+}
+.bonus3-title {
+    background-color: #8480f5;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 6px 35px;
+    color: #fff !important;
+}
+.bonus4-text-out {
+    background: url(https://videocreator.io/live/images/bonusBg4.png) no-repeat left bottom;
+    border-radius: 50px;
+    border-image-slice: 1;
+    padding: 0 0 3% 3%;
+    position: relative;
+    width: 93%;
+    margin: auto;
+    margin-top: 6%;
+}
+.bonus4-text {
+    background-color: #ffe9f0;
+    border-radius: 40px;
+    padding: 6% 1% 6% 2%;
+    position: relative;
+    width: 102%;
+}
+.bonus4-title {
+    background-color: #e74d81;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 6px 35px;
+    color: #fff !important;
+}
+.para{
+    color: #fff !important;
+    font-size: 20px;
+}
+.section21 {
+    background: url(https://videocreator.io/live/images/section21.png) no-repeat center bottom;
+    background-size: cover;
+    padding: 5% 0 8% 0;
+    margin-top: -2%;
+    overflow: hidden;
+}
+.image20 {
+    background: url(https://videocreator.io/live/images/titleBg20.png) no-repeat center center;
+    padding: 4% 2% 5% 2%;
+    position: relative;
+    z-index: 2;
+}
+.img_h3{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section17A end */
+/* section17 start */
+
+.section17 {
+    background: url(https://videocreator.io/live/images/section17.png) no-repeat center bottom;
+    background-size: cover;
+    padding: 4% 0 2% 0;
+    position: relative;
+}
+
+.image17 {
+    background: url(https://videocreator.io/live/images/titleBg19.png) no-repeat center center;
+    padding: 5% 2% 6% 2%;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+/* section17 end */
